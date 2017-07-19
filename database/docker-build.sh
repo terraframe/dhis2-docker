@@ -57,6 +57,6 @@ validate_parameters
 
 VERSION_TMP=${DHIS2_VERSION//[-._]/}
 
-fetch_data
+#fetch_data
 
 docker build -t pgracio/dhis2-db:$DHIS2_VERSION-$DATA_SET .
